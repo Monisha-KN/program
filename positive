@@ -1,0 +1,16 @@
+class positive
+{
+public static void main(String[] arg)
+{
+Scanner s=new Scanner(System.in);
+int n=s.nextInt();
+if(n>0)
+{
+return "positive";
+}
+else
+{
+return "negative";
+}
+}
+}
